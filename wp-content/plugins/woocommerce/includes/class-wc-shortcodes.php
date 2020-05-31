@@ -785,7 +785,7 @@ class WC_Shortcodes {
 
 		if ( $products->have_posts() ) : ?>
 
-			<?php woocommerce_product_loop_start(); ?>
+			<?php @woocommerce_product_loop_start(); ?>
 
 				<?php while ( $products->have_posts() ) : $products->the_post(); ?>
 

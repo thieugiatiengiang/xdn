@@ -20,6 +20,8 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'D:\project\webmoi\xdn\wp-content\plugins\wp-super-cache/' );
 define('DB_NAME', 'webmoixdn');
 
 /** MySQL database username */
@@ -77,8 +79,18 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
-define('WP_USE_EXT_MYSQL', false);
+// Enable WP_DEBUG mode
+define( 'WP_DEBUG', false );
+
+// Enable Debug logging to the /wp-content/debug.log file
+define( 'WP_DEBUG_LOG', false );
+
+// Disable display of errors and warnings
+define( 'WP_DEBUG_DISPLAY', false );
+@ini_set( 'display_errors', 0 );
+
+// Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
+define( 'SCRIPT_DEBUG', false );
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */

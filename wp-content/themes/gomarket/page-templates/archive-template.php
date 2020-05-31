@@ -7,6 +7,7 @@ get_header(); ?>
 <?php global $page_datas;?>
 		<div class="slideshow-wrapper main-slideshow <?php echo strcmp($page_datas['page_layout'],'wide') == 0 ? "wide" : "container"; ?>">
 			<div class="slideshow-sub-wrapper <?php echo strcmp($page_datas['page_layout'],'wide') == 0 ? "wide-wrapper" : "span24"; ?>">
+				
 				<?php show_page_slider(); ?>
 			</div>
 		</div>

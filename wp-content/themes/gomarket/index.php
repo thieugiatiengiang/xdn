@@ -29,6 +29,7 @@ get_header(); ?>
 						
 				
 				<div id="main_content" class="span18">
+					
 					<div class="alpha">
 						<?php get_template_part( 'content' );?>
 					</div>

@@ -8389,4 +8389,9 @@ html .pp_woocommerce form.cart .button.product_type_simple {
 	font-size:12px;
 }.ibuycall {z-index: 1;position: relative;top: auto;bottom: auto;left: auto;right: auto;font-size: 14px;font-weight: bold;line-height: 38px;text-align: center;text-transform: uppercase;border-style: solid;border-width: 1px 1px 2px;margin: 0px 30px 15px;padding: 10.5px 20px;border-radius: 2px;text-shadow: none;background:red;border-color: #D8D8D8;color: #fff;}.ibuycall:hover {background:red;border-color: #D8D8D8;color: #fff;}
 
+h2{
+	font-family: "Source Sans Pro" !important;
+	text-transform: uppercase;
+	color: #e2391e !important;
 
+}

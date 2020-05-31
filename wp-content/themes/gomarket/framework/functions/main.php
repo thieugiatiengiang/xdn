@@ -226,6 +226,7 @@
 						</div>
 						<?php if(is_page() && isset($page_datas['hide_slider_hot_product']) && absint($page_datas['hide_slider_hot_product']) == 0 ) :?>
 						<div class="static_header">
+							<?php echo do_shortcode('[metaslider id="5891"]'); ?>
 							<?php
 								if ( is_active_sidebar( 'header-widget-area' ) ) : ?>
 								<ul class="xoxo">

@@ -125,6 +125,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 <div id="template-wrapper" class="hfeed">
 	<div id="header" <?php echo $header_layout; ?>>
 		<div class="header-container">
+			
 			<?php do_action( 'wd_header_init' ); ?>
 		</div>
 	</div><!-- end #header -->
